@@ -1,0 +1,12 @@
+// flex
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+  @content;
+}
+
+@mixin color($prime, $sec) {
+  background-color: $sec;
+  color: $prime;
+}
